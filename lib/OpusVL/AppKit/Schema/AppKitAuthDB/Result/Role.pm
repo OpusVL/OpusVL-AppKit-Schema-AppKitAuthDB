@@ -139,6 +139,10 @@ __PACKAGE__->has_many(
 # Created by DBIx::Class::Schema::Loader v0.07000 @ 2010-05-24 12:44:30
 # DO NOT MODIFY THIS OR ANYTHING ABOVE! md5sum:T2FAHyM0e4W0uyrAkJ34Jg
 
+__PACKAGE__->many_to_many(
+    aclfeatures => 'aclfeature_roles', 'aclfeature'
+);
+
 use Moose;
 use OpusVL::AppKit::RolesFor::Schema::AppKitAuthDB::Result::Role;
 with 'OpusVL::AppKit::RolesFor::Schema::AppKitAuthDB::Result::Role';
