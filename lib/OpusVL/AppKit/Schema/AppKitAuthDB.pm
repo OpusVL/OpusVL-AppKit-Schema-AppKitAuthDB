@@ -4,7 +4,7 @@ package OpusVL::AppKit::Schema::AppKitAuthDB;
 
 use strict;
 use warnings;
-our $VERSION = '2';
+our $VERSION = '3';
 
 use base 'DBIx::Class::Schema';
 
