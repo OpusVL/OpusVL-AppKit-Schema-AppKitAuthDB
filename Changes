@@ -1,5 +1,9 @@
 {{ $NEXT }}
 
+4         2016-07-14 20:54:13+01:00 Europe/London
+
+  - Added missing dependency
+
 3         2016-07-01 15:57:08+01:00 Europe/London
 
   - Added basic test.
