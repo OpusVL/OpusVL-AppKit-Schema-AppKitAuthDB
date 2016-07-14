@@ -6,11 +6,13 @@ requires "base" => "0";
 requires "strict" => "0";
 requires "warnings" => "0";
 requires 'DBIx::Class::EncodedColumn::Crypt::Eksblowfish::Bcrypt';
+requires 'DBIx::Class::TimeStamp';
 
 on 'test' => sub {
   requires "ExtUtils::MakeMaker" => "0";
   requires "File::Spec" => "0";
   requires "Test::More" => "0.96";
+  requires 'Test::DBIx::Class';
 };
 
 on 'test' => sub {
