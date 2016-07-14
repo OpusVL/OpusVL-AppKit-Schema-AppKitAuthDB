@@ -5,6 +5,7 @@ requires "Moose" => "0";
 requires "base" => "0";
 requires "strict" => "0";
 requires "warnings" => "0";
+requires 'DBIx::Class::EncodedColumn::Crypt::Eksblowfish::Bcrypt';
 
 on 'test' => sub {
   requires "ExtUtils::MakeMaker" => "0";
