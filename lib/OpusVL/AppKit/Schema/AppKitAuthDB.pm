@@ -10,6 +10,8 @@ use base 'DBIx::Class::Schema';
 
 __PACKAGE__->load_namespaces;
 
+sub schema_version { $VERSION }
+
 1;
 
 =head1 NAME
