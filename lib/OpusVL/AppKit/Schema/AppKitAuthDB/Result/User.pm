@@ -67,7 +67,7 @@ __PACKAGE__->add_columns(
   "password",
   { data_type => "text", is_nullable => 0 },
   "email",
-  { data_type => "text", is_nullable => 0 },
+  { data_type => "citext", is_nullable => 0 },
   "name",
   { data_type => "text", is_nullable => 0 },
   "tel",
